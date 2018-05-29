@@ -1,6 +1,8 @@
 <?php
 
-define('DATA_DIR', realpath(dirname(__FILE__).'/../data'));
+namespace vendor\lib;
+
+define('DATA_DIR', realpath(dirname(__FILE__).'/../../data'));
 
 $_data_index = null;
 
